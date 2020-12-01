@@ -21,7 +21,7 @@ void main() {
 /* Method for change Statusbar color*/
 void updateStatusBarColor() {
   SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
-    systemNavigationBarColor: Colors.teal,
+    systemNavigationBarColor: Colors.black,
     statusBarColor: Colors.white,
   ));
 }
