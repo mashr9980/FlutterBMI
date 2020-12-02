@@ -53,7 +53,7 @@ void getTheme() async {
     default:
       isDarkTheme = false;
       themeLabel = "Light Mode";
-      themeIcon = new Icon(FontAwesomeIcons.solidMoon, color: Colors.black38);
+      themeIcon = new Icon(FontAwesomeIcons.solidMoon, color: Colors.teal);
       runApp(CustomTheme(initialThemeKey: MyThemeKeys.LIGHT, child: MyApp()));
       break;
   }
